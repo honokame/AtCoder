@@ -3,7 +3,7 @@
 
 int main(void){
 
-  char s[10] = {};
+  char s[20] = {};
   char t[] = "pp";
 
   scanf("%s",s);
