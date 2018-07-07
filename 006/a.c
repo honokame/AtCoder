@@ -4,13 +4,13 @@ int main(void){
   int N;
 
   scanf("%d",&N);
-  if(N >= 1 && N <= 9){
-    if(N == 3 || N == 6 || N == 9){
-      printf("YES\n");
-    }
-    else{
-      printf("NO\n");
-    }
+  
+  if(N == 3 || N == 6 || N == 9){
+    printf("YES\n");
   }
+  else{
+    printf("NO\n");
+  }
+
   return 0;
 }
